@@ -43,22 +43,22 @@ Building:
 Users should be able to update a building's details
 Users should be able to see a list of all buildings, as well as a list of all available floors for each building
 Users should be able to see a single building's details
-	- On this page, a user should be able to see all of the companies that have offices in the building
-	- On this page, a user should be able to see how much total rent that building is making based on all the companies
+  - On this page, a user should be able to see all of the companies that have offices in the building
+  - On this page, a user should be able to see how much total rent that building is making based on all the companies
 
 
 Company:
 
 Users should be able to create a new company and choose any number of buildings to open an office in, as well as the floor that the company would like to purchase
-	- An office takes up an entire floor, and if a building already has an office on that floor, then the user should be alerted that they must choose another floor
-	- Since a building has a set number of floors, floors above this number or below 0 should be invalid
+  - An office takes up an entire floor, and if a building already has an office on that floor, then the user should be alerted that they must choose another floor
+  - Since a building has a set number of floors, floors above this number or below 0 should be invalid
 Users should be able to see a company's details
-	- On this page, a user should be able to see a list of all of its offices, as well as the building in which the office is located
-	- On this page, a user should be able to add an employee to the company
-	- On this page, a user should be able to see a list of all employees 
-	- On this page, a user should be able to remove an employee from the company
-	- On this page, a user should be able to see how much total rent it is paying
-	- On this page, a user should be able to open more offices
+  - On this page, a user should be able to see a list of all of its offices, as well as the building in which the office is located
+  - On this page, a user should be able to add an employee to the company
+  - On this page, a user should be able to see a list of all employees 
+  - On this page, a user should be able to remove an employee from the company
+  - On this page, a user should be able to see how much total rent it is paying
+  - On this page, a user should be able to open more offices
 
 Don't mess up our database! Make sure that every value is filled in! If a user fails to enter details, please ensure that your remind them of this failure! Together! Yay!
 
@@ -71,9 +71,9 @@ HR has deemed it legal for us to say that a BONUS will be available if you can a
 
 Users should be able to see the number of employees in a building on the building's show page
 Users should be able to see the an office show page with the following:
-	- The building it is in
-	- The company that is using it
-	- The employees that are working in it
+  - The building it is in
+  - The company that is using it
+  - The employees that are working in it
 
 **WARNING**
 Bonuses must be earned! This is a tough one and may involve adding another association between an office and an employee! Really think about this one; in this updated model, we are suggesting that an employee can only have access to a single office!
