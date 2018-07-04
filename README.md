@@ -14,11 +14,14 @@ Building:
 name
 country
 address
+rent_per_floor
+number_of_floors
 
 
 Office:
 building
 company
+floor
 
 
 Company:
@@ -31,29 +34,40 @@ title
 company
 
 
+For clarity, an office takes up an entire floor!
+
 The product team has deemed the following features as crucial:
 
 Building:
 
-Users should be able to create a new building with only a name, country, and address
-Users should be able to edit a building's information
-Users should be able to see a list of all buildings
+Users should be able to update a building's details
+Users should be able to see a list of all buildings, as well as a list of all available floors for each building
 Users should be able to see a single building's details
 	- On this page, a user should be able to see all of the companies that have offices in the building
+	- On this page, a user should be able to see how much total rent that building is making based on all the companies
+
 
 Company:
 
-Users should be able to create a new company and choose any number of buildings to open an office in
-Users should be able to edit a company's information
+Users should be able to create a new company and choose any number of buildings to open an office in, as well as the floor that the company would like to purchase
+	- An office takes up an entire floor, and if a building already has an office on that floor, then the user should be alerted that they must choose another floor
+	- Since a building has a set number of floors, floors above this number or below 0 should be invalid
 Users should be able to see a company's details
 	- On this page, a user should be able to see a list of all of its offices, as well as the building in which the office is located
 	- On this page, a user should be able to add an employee to the company
 	- On this page, a user should be able to see a list of all employees 
 	- On this page, a user should be able to remove an employee from the company
+	- On this page, a user should be able to see how much total rent it is paying
+	- On this page, a user should be able to open more offices
+
+Don't mess up our database! Make sure that every value is filled in! If a user fails to enter details, please ensure that your remind them of this failure! Together! Yay!
+
+In addition, please ensure that a user's name is longer than 5 characters! 
+
+An office's floor must be an integer!
 
 
-
-HR has deemed it legal for us to say that a BONUS will be available if you can accomplish the following:
+HR has deemed it legal for us to say that a BONUS will be available if you can accomplish any of the following:
 
 Users should be able to see the number of employees in a building on the building's show page
 Users should be able to see the an office show page with the following:

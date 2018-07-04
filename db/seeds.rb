@@ -1,13 +1,27 @@
 weworks = [
-	{name: "Finsbury Pavement", country: UK, address: "131 Finsbury Pavement"}, 
-	{name: "Chelsea HQ", country: US, address: "29 West 28th Street"}, 
-	{name: "Broadway", country: US, address: "85 Broadway"}
+	{name: "Finsbury Pavement", 
+	 country: "UK", 
+	 address: "131 Finsbury Pavement",
+	 rent_per_floor: 18000,
+	 number_of_floors: 8
+	}, 
+	{name: "Chelsea HQ", 
+	 country: "US", 
+	 address: "29 West 28th Street",
+	 rent_per_floor: 20000,
+	 number_of_floors: 20
+	}, 
+	{name: "Broadway", 
+	 country: "US", 
+	 address: "85 Broadway",
+	 rent_per_floor: 25000,
+	 number_of_floors: 6
+	}
 ]
 
 weworks.each do |we|
 	Building.create(we)
 end
-
 
 companies = [
 	"Microsoft",
@@ -20,7 +34,7 @@ companies = [
 ]
 
 companies.each do |company|
-	Company.create(company)
+	Company.create(name: company)
 end
 
 titles = [
@@ -34,18 +48,10 @@ titles = [
 ]
 
 100.times do 
-	Empoloyee.create(
-		name: Faker::Name.name_with_middle
-		title: titles.sample
+	Employee.create(
+		name: Faker::Name.name_with_middle,
+		title: titles.sample,
 		company: Company.all.sample
 	)
 end
 
-
-num_offices = [3,4,5,6,7]
-Company.all.each do |company|
-	num_offices.sample.times do 
-		building = Building.all.sample
-		Office.create(company: company, building: building)
-	end
-end
