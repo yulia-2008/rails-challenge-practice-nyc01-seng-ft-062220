@@ -36,7 +36,7 @@ Employee:
 * company
 
 
-** For clarity, an office takes up an entire floor! **
+**For clarity, an office takes up an entire floor!**
 
 ## Deliverables
 
