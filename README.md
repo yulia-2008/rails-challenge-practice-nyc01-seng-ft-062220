@@ -62,7 +62,7 @@ The product team has deemed the following features as crucial:
 
 #### Validations: 
 
-* Don't mess up our database! Make sure that every value is filled in! If a user fails to enter details, please ensure that your remind them of this failure! Together!
+* Don't mess up our database! Make sure that every value is filled in! If a user fails to enter details, please ensure that your remind them of this failure!
 * Please ensure that a user's name is longer than 5 characters! 
 * Please ensure that an office's floor is an integer!
 
