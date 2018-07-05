@@ -53,20 +53,16 @@ The product team has deemed the following features as crucial:
 
 ### Company:
 
-* Users should be able to create a new company and choose any number of buildings to open an office in, as well as the floor that the company would like to purchase
-	- An office takes up an entire floor, and if a building already has an office on that floor, then the user should be alerted that they must choose another floor
-	- Since a building has a set number of floors, floors above this number or below 0 should be invalid
-* Users should be able to see a company's details
+* Users should be able to create a new company and choose any number of buildings to open an office in, as well as the floors that the company would like to purchase
 	- On this page, a user should be able to see a list of all of its offices, as well as the building in which the office is located
 	- On this page, a user should be able to add an employee to the company
 	- On this page, a user should be able to see a list of all employees 
 	- On this page, a user should be able to remove an employee from the company
 	- On this page, a user should be able to see how much total rent it is paying
-	- On this page, a user should be able to open more offices
 
 ### Validations: 
 
-* Don't mess up our database! Make sure that every value is filled in! If a user fails to enter details, please ensure that your remind them of this failure! Together! Yay!
+* Don't mess up our database! Make sure that every value is filled in! If a user fails to enter details, please ensure that your remind them of this failure! Together!
 * Please ensure that a user's name is longer than 5 characters! 
 * Please ensure that an office's floor is an integer!
 
