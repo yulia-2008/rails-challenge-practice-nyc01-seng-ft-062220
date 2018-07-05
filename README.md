@@ -1,4 +1,4 @@
-# WeManage
+### WeManage
 
 Welcome, developer, to WeWork! Thanks to a massive hack, we've had to build our building management app from the ground up! Execution of this project falls to you and your team, which, as of now, consists of only you! (for legal and marketing purposes, as you still belong to a team, it is imperative that you use the pronoun "We" when referring to your work on this project in place of the pronoun "I", e.g. "We worked on this project for days!").
 
@@ -8,7 +8,7 @@ To this end, the domain you will be building should look like the following:
 
 Building -< Office >- Company -< Employee
 
-## Schema
+#### Schema
 
 The schema should be as follows:
 
@@ -38,11 +38,11 @@ Employee:
 
 **For clarity, an office takes up an entire floor!**
 
-## Deliverables
+#### Deliverables
 
 The product team has deemed the following features as crucial:
 
-### Building:
+##### Building:
 
 * Users should be able to update a building's details
 * Users should be able to see a list of all buildings, as well as a list of all available floors for each building
@@ -51,7 +51,7 @@ The product team has deemed the following features as crucial:
 	- On this page, a user should be able to see how much total rent that building is making based on all the companies that have rented offices in that building
 
 
-### Company:
+##### Company:
 
 * Users should be able to create a new company and choose any number of buildings to open an office in, as well as the floors that the company would like to purchase
 	- On this page, a user should be able to see a list of all of its offices, as well as the building in which the office is located
@@ -60,14 +60,14 @@ The product team has deemed the following features as crucial:
 	- On this page, a user should be able to remove an employee from the company
 	- On this page, a user should be able to see how much total rent it is paying
 
-### Validations: 
+##### Validations: 
 
 * Don't mess up our database! Make sure that every value is filled in! If a user fails to enter details, please ensure that your remind them of this failure! Together!
 * Please ensure that a user's name is longer than 5 characters! 
 * Please ensure that an office's floor is an integer!
 
 
-### Bonus Deliverables: 
+##### Bonus Deliverables: 
 
 HR has deemed it legal for us to say that a BONUS will be available if you can accomplish any of the following:
 
@@ -81,3 +81,5 @@ HR has deemed it legal for us to say that a BONUS will be available if you can a
 * Bonuses must be earned! These are tough and may involve adding another association between an office and an employee! Really think about this one; in this updated model, we are suggesting that an employee can only have access to a single office!
 
 
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/rails-challenge-practice'>Rails Practice Challenge</a> on Learn.co and start learning to code for free.</p>
