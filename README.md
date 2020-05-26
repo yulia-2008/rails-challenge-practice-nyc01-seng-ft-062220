@@ -64,7 +64,7 @@ The product team has deemed the following features as crucial:
 
 #### Validations:
 
-- Don't mess up our database! Make sure that every value is filled in! If a user fails to enter details, please ensure that your remind them of this failure!
+- Don't mess up our database! Make sure that every value is filled in! If a user fails to enter details, please ensure that you remind them of this failure!
 - Please ensure that a user's name is longer than 5 characters!
 - Please ensure that an office's floor is an integer!
 
@@ -72,7 +72,7 @@ The product team has deemed the following features as crucial:
 
 HR has deemed it legal for us to say that a BONUS will be available if you can accomplish any of the following:
 
-- Users should be able to see the an office show page with the following: 
+- Users should be able to see an office show page with the following: 
 	- The building it is in 
 	- The company that is using it 
 	- The employees that are working in it
