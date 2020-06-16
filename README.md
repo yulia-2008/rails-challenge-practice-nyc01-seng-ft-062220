@@ -81,6 +81,3 @@ HR has deemed it legal for us to say that a BONUS will be available if you can a
 **WARNING**
 
 - Bonuses must be earned! These are tough and may involve adding another association between an office and an employee! Really think about this one; in this updated model, we are suggesting that an employee can only have access to a single office!
-
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/rails-challenge-practice'>Rails Practice Challenge</a> on Learn.co and start learning to code for free.</p>
