@@ -1,0 +1,9 @@
+<ul> <% @buildings.each do |building| %>
+    <li> <%=building.name %></li>
+    <li> <%=building.country %>/li>
+    <li> <%=building.address %>/li>
+    <li> <%=building.list_of_floors %>/li>
+    <li> <%=building.rent_per_floors %>/li>
+    <li> Available floor(s): <%= self.empty_offices %>/li><br>
+    <%end%>
+    </ul>

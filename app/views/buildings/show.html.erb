@@ -1,0 +1,9 @@
+<h1> Building:  <%=@building.name%> </h1>
+<h> Companies that have offices in the building: </h>
+ <ul><% @building.companies.each do |company| %>
+    <li> <%=company.name%> </li>
+    <%end%>
+    </ul>
+    <p> Total amount of money that come form rent of the building: </p>
+    
+    <%= @building.rent_per_floor * @building.companies.count %>

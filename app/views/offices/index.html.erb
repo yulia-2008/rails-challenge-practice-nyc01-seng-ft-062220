@@ -1,0 +1,7 @@
+<h1> All offices: </h1>
+<ul><% @offices.each do |office| %>
+<li>Office id:<%= office.id %> </li>
+<li>Building: <%= office.building.name %> </li>
+<li>Floor:<%= office.floor %> </li>
+<li>Company name:<%= office.company.name %> </li> <br>
+<%end%>

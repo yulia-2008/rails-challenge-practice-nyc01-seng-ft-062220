@@ -1,0 +1,12 @@
+<h1> Add new office </h1>
+<%=form_for @office do |f| %>
+<%= f.label :floor %>
+<%= f.number_field :floor %>
+
+<%= f.label :company_id %>
+<%= f.number_field :company_id %>
+
+<%= f.label :building_id %>
+<%= f.number_field :building_id %>
+<%= f.submit %>
+<%end%>

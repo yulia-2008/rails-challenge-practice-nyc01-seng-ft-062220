@@ -1,0 +1,17 @@
+<h1> company:  <%=@company.name%> </h1>
+<p> Company located(all offices): </p>
+<ul> <% @company.offices.each do |office| %>
+     <li> <%= office.building.name %> (floor: <%= office.floor %>) </li>
+    <%end %>
+    </ul> 
+
+    <p> Total rent company pays:  <%= @company.total_rent %> </p>
+
+<p> All employees: </p>
+<ul><% @company.employees.each do |employee| %>
+    <li><%= employee.name %>  <%= button_to 'Delete', employee_path(employee), method: :delete %></li> <br>
+    <%end%>
+</ul>
+
+<a href='<%="/employees/new"%>'>Add employee</a>
+    

@@ -1,0 +1,5 @@
+<h1> All employees: </h1>
+<ul><% @employees.each do |employee| %>
+<li><p><%= employee.name %> </p>
+<%= employee.title %> | <%= employee.company.name %></li> <br>
+<%end%>
